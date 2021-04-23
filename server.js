@@ -7,11 +7,11 @@ const app = express();
 //set up express to handle data parsing 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static('./public'));
 
-// Use apiRoutes
-app.use(apiRoutes);
-app.use(htmlRoutes);
+// Use Routes
+app.use("/api", apiRoutes);
+app.use("/",htmlRoutes);
   
 
 app.listen(PORT, () => {

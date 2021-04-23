@@ -3,7 +3,7 @@ const notes = require('../db/notes.js');
 // The following API routes should be created:
 
 // GET /api/notes should read the db.json file and return all saved notes as JSON.
-router.get('/api/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     notes.getNotes()
     .then(notes => res.json(notes))
     .catch(err => res.status(400).json(err));
