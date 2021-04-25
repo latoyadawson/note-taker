@@ -10,8 +10,8 @@ This is a web application that can be used to write and save notes.
 
 
 ## Screenshot
-![screenshot of startpage](/assets/images/startpage.png)
-![screenshot of notes](/assets/images/notes.png)
+![screenshot of startpage](/public/assets/images/startpage.png)
+![screenshot of notes](/public/assets/images/notes.png)
 
 
 
